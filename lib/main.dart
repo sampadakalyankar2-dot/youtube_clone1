@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:youtube/screens/homeScreen.dart';
-import 'package:youtube/screens/videoPlayerScreen1.dart';
+import 'package:youtube/screens/videoPlayerScreen.dart';
 
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/' , routes: {
         '/' : (context)=> HomeScreen(),
-        '/videoPlayerScreen' : (context)=> VideoPlayerscreen(),
+        '/videoPlayerScreen' : (context)=> Videoplayerscreen(),
       },
     );
   }
